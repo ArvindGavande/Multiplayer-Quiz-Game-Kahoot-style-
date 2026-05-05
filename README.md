@@ -94,7 +94,8 @@ http://localhost:3000
 
 ## 📸 Demo
 
-> Add screenshots or GIFs here to showcase gameplay
+<img width="1920" height="1020" alt="Screenshot 2026-05-05 220540" src="https://github.com/user-attachments/assets/49b1e7d2-7642-4493-9525-ea847297ac9d" />
+
 
 ---
 
@@ -141,7 +142,6 @@ Feel free to fork this project and improve it. Contributions are welcome!
 This project is licensed under the MIT License.
 
 
-Demo
-<img width="1920" height="1020" alt="Screenshot 2026-05-05 220540" src="https://github.com/user-attachments/assets/49b1e7d2-7642-4493-9525-ea847297ac9d" />
+
 
 
