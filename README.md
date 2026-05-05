@@ -1,50 +1,145 @@
-# Multiplayer-Quiz-Game-Kahoot-style-
-A real-time multiplayer quiz game built using WebSockets where players can join a room, answer questions, and compete on a live leaderboard.
+# 🎮 Multiplayer Quiz Game (Kahoot-style)
 
-Features
-Create and join game rooms
-Real-time question broadcasting
-Live answer submission
-Leaderboard updates after each round
-Multiple players support
+A real-time multiplayer quiz game where players can join a room, answer questions simultaneously, and compete on a live leaderboard.
 
-Tech Stack
-Backend: Node.js, Express
-Real-time: Socket.IO
-Frontend: HTML, JavaScript
+---
 
-System Design
+## 🚀 Features
 
-This project demonstrates key distributed systems concepts:
+* 🏠 Create and join game rooms using a unique code
+* ⚡ Real-time question broadcasting using WebSockets
+* 🎯 Instant answer submission
+* 📊 Live leaderboard updates after each question
+* 👥 Multiple players in a single session
 
-Real-time communication using WebSockets
-Shared state management (game rooms)
-Event-driven architecture
-Horizontal scalability (extendable with Redis)
+---
 
-Project Structure
+## 🛠️ Tech Stack
+
+* **Backend:** Node.js, Express
+* **Real-time Communication:** Socket.IO
+* **Frontend:** HTML, JavaScript
+
+---
+
+## 🧠 System Design Concepts
+
+This project demonstrates important distributed systems concepts:
+
+* Real-time bidirectional communication
+* Event-driven architecture
+* Shared state management (game rooms)
+* Scalability (can be extended using Redis)
+
+---
+
+## 📁 Project Structure
+
+```
 quiz-game/
-  server.js
-  /public
-    index.html
-    game.js
+│── server.js
+│── package.json
+│
+└── public/
+    │── index.html
+    │── game.js
+```
 
-How to Run
-Clone the repo:
-git clone https://github.com/YOUR_USERNAME/quiz-game.git
-Install dependencies:
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/ArvindGavande/quiz-game.git
+cd quiz-game
+```
+
+---
+
+### 2. Install dependencies
+
+```
 npm install
-Start server:
-node server.js
-Open browser:
-http://localhost:3000
+```
 
-Future Improvements
-Timer UI for questions
-Speed-based scoring
-Redis-based scaling
-Player reconnection handling
-Better UI (React)
+---
+
+### 3. Run the server
+
+```
+node server.js
+```
+
+---
+
+### 4. Open in browser
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🎮 How to Play
+
+1. Open the app in multiple browser tabs
+2. One player creates a room
+3. Others join using the room code
+4. Click **Start Game**
+5. Answer questions and compete on leaderboard
+
+---
+
+## 📸 Demo
+
+> Add screenshots or GIFs here to showcase gameplay
+
+---
+
+## 🔥 Future Improvements
+
+* ⏱️ Add countdown timer UI
+* ⚡ Speed-based scoring system
+* 🔄 Player reconnect support
+* 📦 Redis integration for scaling across multiple servers
+* 🎨 Improved UI (React or modern frontend)
+
+---
+
+## ⚠️ Limitations
+
+* Currently uses in-memory storage (data resets on server restart)
+* Single-server architecture (not fully distributed yet)
+
+---
+
+## 🧩 Possible Extensions
+
+* Microservices architecture (separate question/score services)
+* Global leaderboard system
+* Analytics dashboard
+* Mobile-friendly UI
+
+---
+
+## 👨‍💻 Author
+
+**Arvind**
+
+---
+
+## ⭐ Contribute
+
+Feel free to fork this project and improve it. Contributions are welcome!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
 
 Demo
 <img width="1920" height="1020" alt="Screenshot 2026-05-05 220540" src="https://github.com/user-attachments/assets/49b1e7d2-7642-4493-9525-ea847297ac9d" />
