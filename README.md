@@ -45,5 +45,8 @@ Speed-based scoring
 Redis-based scaling
 Player reconnection handling
 Better UI (React)
-📸 Demo
+
+Demo
+<img width="1920" height="1020" alt="Screenshot 2026-05-05 220540" src="https://github.com/user-attachments/assets/49b1e7d2-7642-4493-9525-ea847297ac9d" />
+
 
