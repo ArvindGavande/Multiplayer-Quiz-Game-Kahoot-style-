@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Game</title>
+</head>
+<body>
+
+<h1>Quiz Game</h1>
+
+<input id="name" placeholder="Your name" />
+<input id="room" placeholder="Room code" />
+
+<button onclick="createRoom()">Create Room</button>
+<button onclick="joinRoom()">Join Room</button>
+<button onclick="startGame()">Start Game</button>
+
+<div id="game"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
